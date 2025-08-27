@@ -68,8 +68,8 @@ except Exception as e:
         # check if the GLib DLLs are available. If these can not be found, we
         # assume that GLib is statically linked into libvips.
         try:
-            glib_lib = ffi.dlopen('libglib-2.0-0.dll')
-            gobject_lib = ffi.dlopen('libgobject-2.0-0.dll')
+            glib_lib = ffi.dlopen('glib-2.0-0.dll')
+            gobject_lib = ffi.dlopen('gobject-2.0-0.dll')
 
             logger.debug('Loaded lib %s', glib_lib)
             logger.debug('Loaded lib %s', gobject_lib)
