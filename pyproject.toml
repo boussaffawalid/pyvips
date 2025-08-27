@@ -9,7 +9,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyvips"
+name = "pmipyvips"
 authors = [
     {name = "John Cupitt", email = "jcupitt@gmail.com"},
 ]
@@ -50,12 +50,12 @@ dynamic = [
 ]
 
 [project.urls]
-changelog = "https://github.com/libvips/pyvips/blob/master/CHANGELOG.rst"
+changelog = "https://github.com/boussaffawalid/pyvips/blob/master/CHANGELOG.rst"
 documentation = "https://libvips.github.io/pyvips/"
 funding = "https://opencollective.com/libvips"
-homepage = "https://github.com/libvips/pyvips"
-issues = "https://github.com/libvips/pyvips/issues"
-source = "https://github.com/libvips/pyvips"
+homepage = "https://github.com/boussaffawalid/pyvips"
+issues = "https://github.com/boussaffawalid/pyvips/issues"
+source = "https://github.com/boussaffawalid/pyvips"
 
 [tool.setuptools]
 # We try to compile as part of install, so we can't run in a ZIP
